@@ -1,5 +1,4 @@
 #!/usr/bin/env python 
-import matplotlib.pyplot as plt
 import csv
 
 dataFolder = "data/"
@@ -23,9 +22,8 @@ def breakCSVFile(filename):
 counter = 0
 file = open(trainData)
 for line in file:
-	print line
 	counter += 1
-	print counter
+
 file.close()
 
 print counter
@@ -38,7 +36,7 @@ print counter
 
 # pFileNum = [float(x[0]) for x in pFile]
 
-print len(pFile)
+#print len(pFile)
 
 # plt.plot(pFileNum)
 # plt.ylabel('some numbers')
